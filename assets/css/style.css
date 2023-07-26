@@ -1,4 +1,4 @@
-/* Catch alls - Backgrounds and text properties */
+/* Viewport and background color */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Text and links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -19,7 +20,7 @@ p {
 }
 
 /* Header properties */
-.header-bar {
+#header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -27,17 +28,17 @@ p {
 }
 
 /* H1 properties */
-.header-bar h1 {
+#header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header-bar h1 span {
+#header h1 span {
     color: #d9dcd6;
 }
  
 /* Nav bar properties */
-.header-bar nav {
+#header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,16 +46,16 @@ p {
     font-size: 20px;
 }
 
-.header-bar nav ul {
+#header nav ul {
     list-style-type: none;
 }
 
-.header-bar nav ul li {
+#header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Splash Image */
+/* Main Image */
 #splash {
     height: 800px;
     width: 100%;
@@ -65,13 +66,13 @@ p {
 }
 
 /* Text properties for main content */
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Consolidated properties for individual content boxes*/
+/* Consolidated properties for individual content boxes */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,7 +91,7 @@ p {
     max-height: 200px;
 }
 
-/* Image properties for content boxes*/
+/* Image properties for content boxes */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -102,7 +103,7 @@ p {
 }
 
 /* Properties of the sidebar */
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -131,13 +132,13 @@ p {
 }
 
 /* Footer Properties */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
