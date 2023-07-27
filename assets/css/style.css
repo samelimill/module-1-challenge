@@ -5,40 +5,43 @@
     margin: 0;
 }
 
+/* Page background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Text and links */
+/* Link color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+ /* Font size for non-heading text */
 p {
     font-size: 16px;
 }
 
 /* Header properties */
-#header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* H1 properties */
-#header h1 {
+/* Displays contained content side-by-side and sets main heading font size */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-#header h1 span {
+/* Adds an accent color to the business name */
+header h1 span {
     color: #d9dcd6;
 }
  
 /* Nav bar properties */
-#header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,17 +49,19 @@ p {
     font-size: 20px;
 }
 
-#header nav ul {
+/* Formats the nav bar links to have no bullet points */
+header nav ul {
     list-style-type: none;
 }
 
-#header nav ul li {
+/* Places the nav bar links side by side and adds space between each link */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Main Image */
-#splash {
+/* Main Image size, positioning, and space before main content */
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -73,7 +78,7 @@ p {
 }
 
 /* Consolidated properties for individual content boxes */
-.content-section {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,12 +87,14 @@ p {
     color: #ffffff;
 }
 
-.content-section h2 {
+/* Consolidated heading properties for content boxes */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.content-section img {
+/* Consolidated image height for content boxes */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
     max-height: 200px;
 }
 
@@ -114,18 +121,20 @@ p {
     background-color: #2589bd;
 }
 
-/* Consolidated properties for each section of sidebar */
-.benefit-section {
+/* Consolidated margins and text color for each section of sidebar */
+.lead-generation, .brand-awareness, .cost-management {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-section h2 {
+/* Consolidated heading properties for sidebar sections */
+.lead-generation h2, .brand-awareness h2, .cost-management h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-section img {
+/* Consolidated image properties for sidebar sections */
+.lead-generation img, .brand-awareness img, .cost-management img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -139,6 +148,7 @@ footer {
     text-align: center;
 }
 
+/* Font size for footer heading */
 footer h2 {
     font-size: 20px;
 }
