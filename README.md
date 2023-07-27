@@ -9,5 +9,5 @@ Changes made include:
 - Consolidated repetitive sections of code in CSS using new selectors and semantic HTML selectors.
 - Added comments in both CSS and HTML files.
 
-![Horiseon Website](assets\images\Horiseon-screenshot.png)
+![Horiseon Website](assets\images\00-Horiseon-screenshot.png)
 
