@@ -9,5 +9,4 @@ Changes made include:
 - Consolidated repetitive sections of code in CSS using new selectors and semantic HTML selectors.
 - Added comments in both CSS and HTML files.
 
-![Horiseon Website](assets\images\00-Horiseon-screenshot.png)
-
+![Horiseon Website](https://github.com/samelimill/phase-wrung-refactor/assets/139184509/74ca415e-4056-44d3-b2c9-9710b7ce1880)
